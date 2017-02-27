@@ -1,6 +1,6 @@
-package com.andyaylward.lunarexample;
+package com.muchq.lunarexample;
 
-import com.andyaylward.lunarexample.config.ExampleModule;
+import com.muchq.lunarexample.config.ExampleModule;
 import com.muchq.lunarcat.Service;
 import com.muchq.lunarcat.config.Configuration;
 

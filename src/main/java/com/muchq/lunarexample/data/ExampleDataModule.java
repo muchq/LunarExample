@@ -1,4 +1,4 @@
-package com.andyaylward.lunarexample.data;
+package com.muchq.lunarexample.data;
 
 import com.google.inject.Provides;
 import com.google.inject.name.Named;

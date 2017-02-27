@@ -1,4 +1,4 @@
-package com.andyaylward.lunarexample.data;
+package com.muchq.lunarexample.data;
 
 import org.skife.jdbi.v2.sqlobject.Bind;
 import org.skife.jdbi.v2.sqlobject.GetGeneratedKeys;

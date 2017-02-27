@@ -1,9 +1,9 @@
-package com.andyaylward.lunarexample.resources;
+package com.muchq.lunarexample.resources;
 
-import com.andyaylward.lunarexample.data.ExampleDao;
-import com.andyaylward.lunarexample.data.ExampleRecord;
 import com.google.inject.Inject;
 import com.muchq.lunarcat.util.PublicPreconditions;
+import com.muchq.lunarexample.data.ExampleDao;
+import com.muchq.lunarexample.data.ExampleRecord;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;

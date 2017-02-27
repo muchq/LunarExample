@@ -1,9 +1,9 @@
-package com.andyaylward.lunarexample.config;
+package com.muchq.lunarexample.config;
 
-import com.andyaylward.lunarexample.data.ExampleDataModule;
 import com.google.inject.AbstractModule;
 import com.hubspot.liveconfig.LiveConfig;
 import com.hubspot.liveconfig.LiveConfigModule;
+import com.muchq.lunarexample.data.ExampleDataModule;
 
 public class ExampleModule extends AbstractModule {
   @Override

@@ -1,4 +1,4 @@
-package com.andyaylward.lunarexample.data;
+package com.muchq.lunarexample.data;
 
 import com.hubspot.rosetta.annotations.RosettaProperty;
 import com.muchq.immutables.MoonStyle;
