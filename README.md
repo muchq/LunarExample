@@ -4,13 +4,14 @@ This is an example application that uses [LunarCat](https://github.com/muchq/Lun
 To run it, you will need:
 
  - java 8+
- - a running MySQL / Percona / Maria database
-  ```mysql
-  create table something (
-    id bigint auto_increment primary key,
-    name varchar(128) charset utf8
-  ) engine=InnoDB default charset utf8;
-  ```
+ - MySQL / Percona / Maria database
+
+```mysql
+create table something (
+  id bigint auto_increment primary key,
+  name varchar(128) charset utf8
+) engine=InnoDB default charset utf8;
+```
 
 Ok, now that we have that out of the way, run the example app:
 
