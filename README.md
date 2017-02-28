@@ -26,8 +26,8 @@ java -DPORT=8080 -Dexample.db.user=root -Dexample.db.pass= -Dexample.db.host=loc
 Awesome, now let's make some requests:
 
 ```shell
-➜  ~ curl -H "Content-Type: application/json" -X POST http://localhost:8080/hello\?name\=Andy
-{"id":1,"name":"Andy"}
+➜  ~ curl -H "Content-Type: application/json" -X POST -d '{"name": "Andy"}' http://localhost:8080/hello
+{"id":1,"name":"Andy"}%
 
 ➜  ~ curl http://localhost:8080/hello/1
 {"id":1,"name":"Andy"}%
