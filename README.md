@@ -7,6 +7,8 @@ To run it, you will need:
  - MySQL / Percona / Maria database
 
 ```mysql
+use foo;
+
 create table something (
   id bigint auto_increment primary key,
   name varchar(128) charset utf8
